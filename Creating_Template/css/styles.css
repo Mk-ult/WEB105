@@ -1,0 +1,163 @@
+/* body{
+    --dark-primary-color: #0086c3;
+    --light-primary-color: #73e8ff;
+    --primary-color: #29b6f6;
+    --text-icons: #000000;
+    --accent-color: #4ba3c7;
+    --primary-text-color: #000000;
+    --secondary-text-color: #81d4fa;
+    --divider-color: #b6ffff;
+    --heading-font-family: 'Roboto', 'Noto', sans-serif;
+    --text-font: 'Roboto', 'Noto', sans-serif;
+} */
+
+*{
+    overflow: auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #0086c3;
+    color: #000000;
+    box-sizing: border-box;
+    
+}
+.container{
+    background: #d9f2f8;
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #00867d;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #4db6ac;
+    
+}
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: #0a0a0a;
+    background:#44f834;
+    border: 2px solid #220afc;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover, .button:hover{
+    color: #020202;
+    background: #f3f3ef;
+    
+}
+
+/* nav a: visited, .button:visited{
+    background: #4db6ac;
+    border: #4db6ac;
+} */
+#thumb{
+    width: 30%;
+    height: 20%;
+    float: right;
+    border: 10px solid #771c1c;
+
+}
+
+#img5{
+    width: 20%;
+    height: 20%;
+    float: center;
+    border: 7px solid #f125f1;
+}
+
+#img1{
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    background: #82e9de;
+}
+
+aside{
+    clear: both;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    overflow: auto;
+    border: 2px solid #82e9de;
+    margin-right: 10px;
+}
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+main{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */ 
