@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Tables/css/styles.css">
+    <title>Document</title>
+    <style>
+         * {
+                    box-sizing: border-box;
+                }
+
+                table {
+                    width: 90%;
+                    align-self: center;
+                    margin: 10px auto;
+                    border-collapse: collapse;
+                    border: 5px solid rgb(92, 6, 104);
+                }
+
+                th {
+                    color: rgb(10, 10, 10);
+                    background: rgb(49, 224, 255);
+                    text-align: center;
+                    vertical-align: middle;
+                    border: 1px solid rgb(0, 0, 0);
+                    height: 40px;
+                }
+
+                td {
+                    height: 40px;
+                    text-align: right;
+                    vertical-align: top;
+                    width: 14%;
+                    border: 1px solid rgb(45, 180, 204);
+                    font-weight: bold;
+                    padding: 5px;
+                }
+
+                .weekend {
+                    background: rgba(46, 228, 252, 0.8);
+                }
+                #h3 {
+                    text-align: center;
+                    color: rgb(6, 4, 44);
+                }
+                td:hover{
+                    background: rgb(165, 255, 247);
+                }
+                tr:hover {
+                    background: rgb(165, 255, 247);
+                }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tables</h1>
+        
+        <nav>
+            <a href="index.html">Table Basics</a>
+            <a href="styling-tables.html">Styling Tables</a>
+            <a href="calendar.html">Creating a calendar</a>
+        </nav>
+        <p></p>
+        <h2>Calendar</h2>
+        <h3 id="h3">August 2022</h3>
+        </header>
+        <table>
+            <tbody><tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thur</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <td class="weekend"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td class="weekend">2</td>
+            </tr>
+            <tr>
+                <td class="weekend">3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td class="weekend">9</td>
+            </tr>
+            <tr>
+                <td class="weekend">10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td class="weekend">16</td>
+            </tr>
+            <tr>
+                <td class="weekend">17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td class="weekend">23</td>
+            </tr>
+            <tr>
+                <td class="weekend">24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td class="weekend">30</td>
+            </tr>
+            <tr>
+                <td class="weekend">31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="weekend"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+        
+        
+        
+</body>
+</html>
