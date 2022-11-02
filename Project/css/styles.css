@@ -1,0 +1,253 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --dark-primary-color: #512DA8;
+    --light-primary-color: #D1C4E9;
+    --extra-color: #fe00f0;
+    --accent-color: #FFC107;
+    --primary-color: #673AB7;
+    --primary-text-color: #212121;
+    --text-font: 'Roboto', sans-serif;
+    --heading-font: 'open sans', sans-serif;
+}
+
+/* *{
+    overflow: hidden;
+} */
+
+
+body{
+    box-sizing: border-box;
+    background-color: var(--dark-primary-color);
+    font-family: var(--text-font);
+}
+
+main{
+    min-height: 80%;
+    box-sizing: border-box;
+    background-color: var(--light-primary-color);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--accent-color);
+    padding: 15px;
+}
+
+
+#home{
+    background-color: var(--accent-color);
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--primary-text-color);
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: #0a0a0a;
+    background: #27e7f8;
+    border: 2px solid var(--dark-primary-color);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover, .button:hover{
+    color: #020202;
+    background: #f3f3ef;
+}
+
+
+h1{
+    color: var(--primary-text-color);
+    font-family: var(--heading-font);
+    text-align: right;
+}
+h2{
+    color: var(--primary-text-color);
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+#center{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.banner{
+    background-color: var(--light-primary-color);
+    color: var(--black);
+    padding: 15px;
+    
+}
+
+.container{
+    min-height: 50%;
+    min-width: 100%;
+    background: #d9f2f8;
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+
+
+/* #navmain{
+    min-height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: var(--light-primary-color);
+    color: var(--primary-text-color);
+    align-content: right;
+} */
+
+
+
+
+footer{
+    margin-top: 50px;
+    min-height: 60px;
+    border: 10px solid gold;
+    padding: 10px;
+    background-color: white;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+
+
+aside{
+    clear: both;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    overflow: auto;
+    border: 2px solid #82e9de;
+    margin-left: 10px;
+}
+
+#aside_txt{
+    margin-left: 5%;
+    padding: 10px;
+    text-align: right;
+}
+
+/* header, main, footer{
+    min-height: 60px;
+    border: 10px solid gold;
+    padding: 10px;
+    background-color: white;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 15px;
+} */
+
+#home_img_aside{
+    overflow: hidden;
+    float: left;
+    max-width: 30%;
+    height: auto;
+    border: 2px solid #82e9de;
+    border-radius: 10px;
+}
+
+#home_img_main{
+
+    float: right;
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#atlas_nameh1{
+    font-size: 50px;
+}
+
+#atlas_window_img{
+    align-self: center;
+    float: right;
+    max-width: 20%;
+    height: 30%;
+    border-radius: 10px;
+}
+
+#atlas_baby{
+    float: left;
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#atlas_toys{
+    padding: 10px;
+    margin:0 auto;
+    display: block;
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+section{
+    padding: 10px;
+    margin: 10px;
+    border: 2px var(--accent-color);
+    border-radius: 10px;
+
+}
+
+/* #june2{
+    align-self: center;
+    float: right;
+    max-width: 20%;
+    height: 30%;
+    border-radius: 10px;
+
+} */
+
+#nuggetdriving{
+    padding: 10px;
+    margin:0 auto;
+    display: block;
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#nuggetballed{
+    padding: 10px;
+    margin:0 auto;
+    display: block;
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#atlas_nug{
+    padding: 10px;
+    margin:0 auto;
+    display: block;
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
